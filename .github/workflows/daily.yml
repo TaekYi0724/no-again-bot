@@ -2,7 +2,7 @@ name: No Again Daily Message
 
 on:
   schedule:
-    - cron: "0 15 * * *"
+  - cron: "7 15 * * *"
   workflow_dispatch:
 
 permissions:
